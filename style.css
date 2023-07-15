@@ -227,7 +227,7 @@ display: block;
   padding: 0.25rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
-  border: .5px solid hsl(216, 15%, 52%);
+  border: 0;
 }
 
 .blog-topic:hover {
