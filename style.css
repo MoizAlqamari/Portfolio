@@ -112,12 +112,15 @@ html {
 
 .btn-secondary {
   background: var(--action-secondary);
-  color: var(--foreground-secondary);
+  color: var(--accent);
   padding: 0.5rem 1rem;
   border: 3px solid var(--foreground-tertiary);
 }
 
-.btn-secondary:hover { border-color: var(--accent); }
+.btn-secondary:hover { 
+  background-color: var(--accent);
+  color: white;
+}
 
 header { background: var(--background-primary); }
 
